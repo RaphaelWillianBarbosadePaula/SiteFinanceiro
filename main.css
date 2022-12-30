@@ -1,0 +1,68 @@
+* {
+	box-sizing: border-box;
+}
+
+
+body {
+	font-size: 18px;
+	margin: 0;
+	background-color: gray;
+}
+
+/* Classes de utilidade */
+.button {
+	padding: 15px;
+	background-color: #333;
+	color: #eee;
+	border: none;
+}
+
+.box  {
+	width: 80%;
+	margin: auto;	
+}
+
+.container-menu {
+	
+	background-color: #eee;
+	border: 3px solid #333;
+	color: #333;
+	padding: 15px;
+	text-align: center;
+	margin-bottom: 10px;
+	position: sticky;
+	top: 0;
+}
+
+.container-menu a {
+	padding: 30px;
+	text-decoration: none;
+	color: black;
+	cursor: pointer ;
+}
+
+.main-form {
+	padding: 15px;
+	margin-bottom: 10px;
+	border: 3px solid #333;
+	background-color: darkgrey;
+}
+
+.main-form ul {
+	margin-top: 10px;
+	border-top: 3px solid #333;
+	list-style: none;
+	display: block;
+}
+
+.main-form button {
+	background-color: cadetblue;
+	border: 3px solid #333;
+}
+
+.main-form li {
+	padding: 10px;
+}
+.main-form label {
+	display: block;
+}
